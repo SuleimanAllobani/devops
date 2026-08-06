@@ -1,9 +1,9 @@
 name: pipeline
 
 on:
-  push:  # No branches specified
-   branches: [ main ]
-   
+  push:  
+   branches: $default-branch
+
 jobs:
   build:
     runs-on: ubuntu-latest
