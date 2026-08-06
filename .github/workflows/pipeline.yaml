@@ -2,8 +2,8 @@ name: pipeline
 
 on:
   push:  # No branches specified
-  workflow_dispatch:
-
+   branches: [ main ]
+   
 jobs:
   build:
     runs-on: ubuntu-latest
