@@ -2,7 +2,7 @@ name: CI pipenline
 on:
   push:
     branches: [ main ]
-Jobs:
+jobs:
   build:
     runs-on: ubuntu-latest
 
